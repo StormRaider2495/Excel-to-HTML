@@ -1,0 +1,2221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>JWY03_Tracker</title>
+    <style>
+        .table-view {
+            height: 450px;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Sheet 1:Demo</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Col 1</th>
+                    <td>Col 2</td>
+                    <td>Col 3</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>A</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>B</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>C</th>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>D</th>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <h2> Sheet 2:Dev</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#ch</th>
+                    <td>Estimated Date</td>
+                    <td>Integration assigned</td>
+                    <td>Drag Drop(HTML)</td>
+                    <td>True and False(HTML)</td>
+                    <td>Click To Draw(HTML)</td>
+                    <td>MCQ(HTML)</td>
+                    <td>Drop Down(HTML)</td>
+                    <td>Click and Strike Through(HTML)</td>
+                    <td>Click and Fill(HTML)</td>
+                    <td>Input Box(HTML)</td>
+                    <td>Special(Combined variants)</td>
+                    <td>Total activity Screen</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>ch00_01_01</th>
+                <td>Debi</td>
+                <td>var1( https://drive.google.com/open?id=1WDPWnf_XbYi&ndash;4VUkiYUPQ2nYaXt0K3gX )</td>
+                <td>var1</td>
+                <td>var1(https://drive.google.com/file/d/1xcdOeYpGOdRkK7hGBq7cE3fvUPyr5N6j/view)&#10;var2(https://drive.google.com/open?id=1e09WUiDZ7kiYbcZBaN46PaeI1Px88ZGu)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_01_02</th>
+                <td>Debi/Samrat</td>
+                <td>&#10;var9(https://drive.google.com/file/d/1kOJN7_rW1FVSpDwaxPtb57HKpXxYGikB/view)&#10;</td>
+                <td>var1(https://drive.google.com/open?id=1SClB5vVpmKSWwF7c0aLJIDmTSyyuhmuf)&#10;</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_01_03</th>
+                <td>Debi/Arijit </td>
+                <td>var1</td>
+                <td>var2(https://drive.google.com/file/d/1sEytJFoXomZRHOu32qnP1fi0OpCILg0g/view)&#10;var3(https://drive.google.com/open?id=1ioAPnG_mZqPPkOuY6dXaKGTuPxUn7BHm)&#10;var11</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_01_04</th>
+                <td>Debi/shibnath</td>
+                <td>var1(https://drive.google.com/open?id=1hczUn&ndash;r7kaqr-i4G40c8mPSw50-vygeC)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_02_01</th>
+                <td>Debi/shibnath</td>
+                <td>var1(https://drive.google.com/open?id=1&ndash;hsZKeEl1dPLNOPX5ENA-SIX_MLzhkn1)</td>
+                <td>var3</td>
+                <td>var2,var3</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th>ch00_02_02</th>
+                <td>Samrat</td>
+                <td>var 1</td>
+                <td>var 3</td>
+            </tr>
+            <tr>
+                <th>ch00_03_01</th>
+                <td>Samrat/Debi/Arijit</td>
+                <td>var2(https://drive.google.com/open?id=1&ndash;aanNoG5-J_RfhiZ9EdHZqeqH_q-9Hy1)</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>ch00_03_02</th>
+                <td>Samrat/Debi/Arunit</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_03_03&#10;&#10;</th>
+                <td>Samrat/Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_01&#10;&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_04_02&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <th>ch00_04_03</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var4(https://drive.google.com/open?id=1c6lTMfKRbjO_rMgxOpnCvO8kcUJon6Eq)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_04</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_05</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_05_05</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var1(https://drive.google.com/open?id=138EHSjzhWX1&ndash;1jngkom5L1MagI1c_HcD)</td>
+                <td>var2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_06_01</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_06_02</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_06_03</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_07_01&ndash;00_07_02</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_07_03</th>
+                <td>Samrat/Arijit</td>
+                <td>var1</td>
+                <td>var2&#10;var11</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_07_04</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3, Var11</td>
+                <td>var2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_07_05&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t01_ch00_l05_t02&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var1&#10;var2(https://drive.google.com/open?id=1nfrUap5YJX6uChwEOKixKfAFgh9G9aLa)</td>
+                <td>var3</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t03</th>
+                <td>Samrat</td>
+                <td>var2,var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t04</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var2,var1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_01_01</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_03_01_01_03_02</th>
+                <td>Debi</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_03_03</th>
+                <td>DEbi</td>
+                <td>var1</td>
+                <td>var3&#10;var9(https://drive.google.com/open?id=1kOJN7_rW1FVSpDwaxPtb57HKpXxYGikB)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_03_04</th>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var2&#10;var4(https://drive.google.com/open?id=11K6PV_LBIb2u2eWM9bOKmweY3caqhho0)&#10;var5(https://drive.google.com/open?id=1Y_Xv6T94olWAwB3N2iuIiycblSQMbTmE)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch01_03_05</th>
+                <td>debi</td>
+                <td>var1(https://drive.google.com/open?id=1QYtq8CDhYfD6zXT7RVT3Nf&ndash;IJK0paLQB)</td>
+                <td>var1</td>
+                <td>var6(https://drive.google.com/open?id=19Hda57WiXSOz5jpgFkgASo_yMVOFrQAF)</td>
+                <td>var5(https://drive.google.com/open?id=16g5ZzYH1J9m9Rjx2akHvqyEd0elQS37y)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch01_04_01</th>
+                <td>debi</td>
+                <td>var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_04_02&ndash;01_04_03</th>
+                <td>debi</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_05_01</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_05_02</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var7(https://drive.google.com/open?id=1HLq7ciTvmich381QeILlCYRKimhejGOb)&#10;var3</td>
+                <td>var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_06_01</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_06_02</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_07_01</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var1(https://drive.google.com/open?id=1_yYJ6AIiUBxPZ0KjyPL&ndash;uQER0EflhyFZ)</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>ch01_07_02</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch01_l01_t02</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t01_ch01_l02_t03</th>
+                <td>30.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t04_ch01_l02_t05</th>
+                <td>30.11.2018</td>
+                <td>debi</td>
+                <td>var2,var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t01</th>
+                <td>samrat</td>
+                <td>var3(https://drive.google.com/open?id=1LlTni6x3LnOZqfs_wAYX9asrIOeCfroh)</td>
+                <td>var2</td>
+                <td>var8(https://drive.google.com/open?id=1MRjIujgrrJ&ndash;Y5Pin5wJPGqeI2PL-3OVs)</td>
+                <td>var2(https://drive.google.com/open?id=1McXO1AFBSxMGrToQwSl0VgW06COuu_Pc)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t02</th>
+                <td>samrat</td>
+                <td>var2</td>
+                <td>var7(https://drive.google.com/open?id=1bevD6gUrh&ndash;EuKYBc0-VaeAF-gVfth1fV)&#10;var8(https://drive.google.com/open?id=1r3uYzVTNPGkRuEwMmrGlOmbNXt_QBEDG)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t03</th>
+                <td>samrat</td>
+                <td>var3(https://drive.google.com/open?id=1vgMYakbf7886vQXB_lfIZJNUmINH2wwW)&#10;var2</td>
+                <td>var4</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t01</th>
+                <td>30 Nov 2018</td>
+                <td>samrat</td>
+                <td>var9(https://drive.google.com/open?id=1RfmlEyQT2YHTS4QDXiEdBsR6GMVR6Sbz)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t02</th>
+                <td>29 Nov 2018</td>
+                <td>samrat</td>
+                <td>var2</td>
+                <td>var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t03</th>
+                <td>30 Nov 2018</td>
+                <td>samrat/arijit</td>
+                <td>var5(https://drive.google.com/open?id=1zbT45uFglCDFX9GexTnGBvXC5&ndash;ECrFAH)</td>
+                <td>var1&#10;var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t04</th>
+                <td>30 Nov 2018</td>
+                <td>samrat</td>
+                <td>var4(https://drive.google.com/open?id=1TSg5hYjSjeCLFUw2vj3LT7&ndash;tZVfDoO-T)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t01</th>
+                <td>11 Dec 2018</td>
+                <td>samrat</td>
+                <td>var1,var2</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t02</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>var2,var1</td>
+                <td>var1</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t03</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t01</th>
+                <td>samrat</td>
+                <td>3</td>
+                <td>1 (MCQ with drop&ndash;down)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t02</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T01</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T02</th>
+                <td>samrat</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T03</th>
+                <td>arunit</td>
+                <td>3</td>
+                <td>var6(https://drive.google.com/file/d/1wI0871_JrZRzbXZ8_G5BcS_9mGoTSGMS/view?usp=sharing)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T04</th>
+                <td>arunit</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T01</th>
+                <td>var1</td>
+                <td>1</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T02</th>
+                <td>var6</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T03</th>
+                <td>2, var1 (normal variation)</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T04</th>
+                <td>var7</td>
+                <td>1 + 1 (Descriptive) (need to check the symbols)</td>
+                <td>var6</td>
+                <td>1(Horizontal&ndash;graphical MCQ with Single word MCQ)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T01</th>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T02</th>
+                <td>2(Descriptive MCQ with Single word MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T03</th>
+                <td>2(Descriptive MCQ with Single word MCQ)</td>
+                <td>1(descriptive MCQ with True/false)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T01</th>
+                <td>var1</td>
+                <td>2 (Descriptive)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T02</th>
+                <td>2</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T01</th>
+                <td>1(Descriptive)</td>
+                <td>1 (True false with MCQ)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T02</th>
+                <td>1(Descriptive) + 1 + 1(Descriptive) +</td>
+                <td>1 (True false with MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T03</th>
+                <td>1</td>
+                <td>var6 + var4</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T04</th>
+                <td>2</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T01</th>
+                <td>var1</td>
+                <td>2</td>
+                <td>var6</td>
+                <td>1 (True false with MCQ)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T02</th>
+                <td>2&#10;1(Horizontal MCQ with vertical MCQ) (normal MCQ)</td>
+                <td>var3 + var6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T03</th>
+                <td>var 8</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_01</th>
+                <td>var10 (https://drive.google.com/file/d/1pBxEmBhtRgojSqTayshI6jk4lywrL6kT/view?usp=sharing) + var2 +
+                    (normal variant, all 3 input boxes should be shown together) + Inputs in MCQ formats</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_02</th>
+                <td>1 (swap the position of image and dropdown)</td>
+                <td>1(Drop&ndash;down with MCQ)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_03</th>
+                <td>var1</td>
+                <td>1 (swap the position of image and dropdown)</td>
+                <td>var3</td>
+                <td>1(True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_04</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_01</th>
+                <td>var1</td>
+                <td>2</td>
+                <td>var2 (input box in MCQ format, combine them in single thumbnail)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_02</th>
+                <td>var1</td>
+                <td>var2 (input box in MCQ format, combine them in single thumbnail)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>&#10;ch05_02_03</th>
+                <td>var1</td>
+                <td>var1, var2 (swap the image and activity position)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_01</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>var2 (show both the boxes together)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_02</th>
+                <td>1</td>
+                <td>var2 (input boxes in MCQ format)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_01</th>
+                <td>2</td>
+                <td>var3</td>
+                <td>1(Input&ndash;box with MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_02</th>
+                <td>var3 (dropdown in MCQ format)</td>
+                <td>1(MCQ with true/false)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_03</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_01</th>
+                <td>1</td>
+                <td>var3 (dropdown in MCQ format)</td>
+                <td>var2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_02</th>
+                <td>1</td>
+                <td>var2 (input boxes in MCQ format)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_03</th>
+                <td>1</td>
+                <td>1(Drop&ndash;down with input-box)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_04</th>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_05</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>3</td>
+                <td>391</td>
+                <td>97.75</td>
+                <td>2639.25</td>
+            </tr>
+        </table>
+    </div>
+    <h2> Sheet 3:Chapter Status</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#ch</th>
+                    <td>Dev Status</td>
+                    <td>Status &ndash; Image To text</td>
+                    <td>Status &ndash; Audio To Text</td>
+                    <td>Alt Text</td>
+                    <td>Instruction text</td>
+                    <td>Integration By</td>
+                    <td>Estimated Date</td>
+                    <td>QA Received</td>
+                    <td>Signoff</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>ch00_01_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi/priyanka</td>
+                <td>29 Nov 2018</td>
+                <td>https://docs.google.com/spreadsheets/d/1STafwb1qcnScQ1mziWN4BPxKGXURvInjvPxO&ndash;HhIEf0/edit?ts=5bf3eb8f#gid=0</td>
+            </tr>
+            <tr>
+                <th>ch00_01_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi/priyanka</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_01_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_01_04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_02_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_02_02</th>
+                <td>Done</td>
+                <td>Debi</td>
+            </tr>
+            <tr>
+                <th>ch00_03_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_03_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_03_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_04_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>29 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_04_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>30 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_04_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>30 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_04_04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>30 Nov 2018</td>
+                <td>done</td>
+            </tr>
+            <tr>
+                <th>ch00_04_05</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>30 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_05_05</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>30 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_06_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>debi</td>
+                <td>30 Nov 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_06_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_06_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_07_01&ndash;00_07_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_07_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_07_04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_07_05</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>3 Dec 2018</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t01_ch00_l05_t02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>3 Dec 2018</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>arijit</td>
+                <td>3 Dec 2018</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>NA</td>
+                <td>Done</td>
+                <td>samrat</td>
+                <td>3 Dec 2018</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_01_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_03_01_01_03_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_03_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_03_04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_03_05</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_04_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>Debi</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_04_02&ndash;01_04_03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>4 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_05_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>Done</td>
+                <td>priyanka</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_06_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Arunit</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_05_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Arunit</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_06_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Debi</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_07_01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Debi</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_07_02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Debi</td>
+                <td>5 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_l01_t02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Debi</td>
+                <td>6 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t01_ch01_l02_t03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Debi</td>
+                <td>6 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t04_ch01_l02_t05</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Arunit</td>
+                <td>6 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Samrat</td>
+                <td>10 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t02</th>
+                <td>Done</td>
+                <td>done </td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Samrat</td>
+                <td>10 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Samrat</td>
+                <td>10 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/4/2018</td>
+                <td>Arijit</td>
+                <td>12 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat</td>
+                <td>10 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Arunit</td>
+                <td>10 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t04</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat</td>
+                <td>11 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat</td>
+                <td>11 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat</td>
+                <td>12 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t03</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat/debi</td>
+                <td>12 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t01</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Samrat</td>
+                <td>12 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t02</th>
+                <td>Done</td>
+                <td>done</td>
+                <td>done</td>
+                <td>12/5/2018</td>
+                <td>Debi</td>
+                <td>12 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T01</th>
+                <td>Done</td>
+                <td>samrat &ndash; 17th</td>
+                <td>Done</td>
+                <td>17 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T02</th>
+                <td>Done</td>
+                <td>samrat &ndash; 17th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T03</th>
+                <td>Arunit &ndash; 17th</td>
+                <td>Dependency&#10;On screen image Alt&ndash;text for activity 1 : Chiradip</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T04</th>
+                <td>Arunit &ndash; 17th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T01</th>
+                <td>Arunit &ndash; 17th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T02</th>
+                <td>done</td>
+                <td>done</td>
+                <td>Arunit &ndash; 19th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+                <td>Activity1: Need on screen image alt text&#10;Activity3: Need on screen image alt text</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T03</th>
+                <td>samrat &ndash; 19th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+                <td>Last activity Tab 2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T04</th>
+                <td>Arunit &ndash; 19th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+                <td>Activity1: Need on screen image alt text&#10;Activity3: Need on screen image alt
+                    text&#10;Activity5: screen 1: Option alt text needed for options</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T01</th>
+                <td>samrat &ndash; 19th</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip&#10;</td>
+                <td>Activity2 Tab 2 : Need view calculation image alt text</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T02</th>
+                <td>samrat &ndash; 18th&#10;</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T03</th>
+                <td>samrat &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T01</th>
+                <td>samrat &ndash; 19th&#10;</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T02</th>
+                <td>samrat &ndash; 19th&#10;</td>
+                <td>Dependency&#10;Alt&ndash;text : Chiradip</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T01</th>
+                <td>Arijit</td>
+                <td>Done (Alt text dependency)</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T02</th>
+                <td>Arunit &ndash; 19th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T03</th>
+                <td>Arunit &ndash; 19th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T04</th>
+                <td>Arunit &ndash; 19th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T01</th>
+                <td>debi</td>
+                <td>Done&#10;</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T02</th>
+                <td>debi</td>
+                <td>Done </td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T03</th>
+                <td>done</td>
+                <td>done</td>
+                <td>arijit</td>
+                <td>Done </td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_01</th>
+                <td>debi &ndash; 17th</td>
+                <td>Done</td>
+                <td>17 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_02</th>
+                <td>debi &ndash; 17th</td>
+                <td>Done</td>
+                <td>17 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_03</th>
+                <td>debi &ndash; 17th</td>
+                <td>Done </td>
+                <td>17 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_04</th>
+                <td>debi &ndash; 18th</td>
+                <td>Done</td>
+                <td>18 Dec 2018</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_01</th>
+                <td>debi &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_02</th>
+                <td>debi &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_01</th>
+                <td>debi &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_02</th>
+                <td>debi &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_01</th>
+                <td>debi &ndash; 19th</td>
+                <td>done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_02</th>
+                <td>debi &ndash; 19th</td>
+                <td>done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_03</th>
+                <td>debi &ndash; 19th</td>
+                <td>done</td>
+            </tr>
+            <tr>
+                <th>ch05_02_03</th>
+                <td>debi &ndash; 19th</td>
+                <td>done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_01</th>
+                <td>debi &ndash; 19th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_02</th>
+                <td>arijit &ndash; 19th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_03</th>
+                <td>arijit &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_04</th>
+                <td>arijit &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_05</th>
+                <td>arijit &ndash; 18th</td>
+                <td>Done</td>
+            </tr>
+        </table>
+    </div>
+    <h2> Sheet 4:Ch0 View Calculation</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Chapter</th>
+                    <td>Image name</td>
+                </tr>
+        </table>
+    </div>
+    <h2> Sheet 5:Variant QA</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#ch</th>
+                    <td>Estimated Date</td>
+                    <td>Integration assigned</td>
+                    <td>Drag Drop(HTML)</td>
+                    <td>True and False(HTML)</td>
+                    <td>Click To Draw(HTML)</td>
+                    <td>MCQ(HTML)</td>
+                    <td>Drop Down(HTML)</td>
+                    <td>Click and Strike Through(HTML)</td>
+                    <td>Click and Fill(HTML)</td>
+                    <td>Input Box(HTML)</td>
+                    <td>Special(Combined variants)</td>
+                    <td>Total activity Screen</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>ch00_01_01</th>
+                <td>Debi</td>
+                <td>var1( https://drive.google.com/open?id=1WDPWnf_XbYi&ndash;4VUkiYUPQ2nYaXt0K3gX )</td>
+                <td>var1</td>
+                <td>var1(https://drive.google.com/file/d/1xcdOeYpGOdRkK7hGBq7cE3fvUPyr5N6j/view)&#10;var2(https://drive.google.com/open?id=1e09WUiDZ7kiYbcZBaN46PaeI1Px88ZGu)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_01_02</th>
+                <td>Debi/Samrat</td>
+                <td>&#10;var9(https://drive.google.com/file/d/1kOJN7_rW1FVSpDwaxPtb57HKpXxYGikB/view)&#10;</td>
+                <td>var1(https://drive.google.com/open?id=1SClB5vVpmKSWwF7c0aLJIDmTSyyuhmuf)&#10;</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_01_03</th>
+                <td>Debi/Arijit </td>
+                <td>var1</td>
+                <td>var2(https://drive.google.com/file/d/1sEytJFoXomZRHOu32qnP1fi0OpCILg0g/view)&#10;var3(https://drive.google.com/open?id=1ioAPnG_mZqPPkOuY6dXaKGTuPxUn7BHm)&#10;var11</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_01_04</th>
+                <td>Debi/shibnath</td>
+                <td>var1(https://drive.google.com/open?id=1hczUn&ndash;r7kaqr-i4G40c8mPSw50-vygeC)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_02_01</th>
+                <td>Debi/shibnath</td>
+                <td>var1(https://drive.google.com/open?id=1&ndash;hsZKeEl1dPLNOPX5ENA-SIX_MLzhkn1)</td>
+                <td>var3</td>
+                <td>var2,var3</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th>ch00_02_02</th>
+                <td>Samrat</td>
+                <td>var 1</td>
+                <td>var 3</td>
+            </tr>
+            <tr>
+                <th>ch00_03_01</th>
+                <td>Samrat/Debi/Arijit</td>
+                <td>var2(https://drive.google.com/open?id=1&ndash;aanNoG5-J_RfhiZ9EdHZqeqH_q-9Hy1)</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>ch00_03_02</th>
+                <td>Samrat/Debi/Arunit</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_03_03&#10;&#10;</th>
+                <td>Samrat/Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_01&#10;&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_04_02&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <th>ch00_04_03</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var4(https://drive.google.com/open?id=1c6lTMfKRbjO_rMgxOpnCvO8kcUJon6Eq)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_04</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_04_05</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_05_05</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var1(https://drive.google.com/open?id=138EHSjzhWX1&ndash;1jngkom5L1MagI1c_HcD)</td>
+                <td>var2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_06_01</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_06_02</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch00_06_03</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_07_01&ndash;00_07_02</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_07_03</th>
+                <td>Samrat/Arijit</td>
+                <td>var1</td>
+                <td>var2&#10;var11</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_07_04</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3, Var11</td>
+                <td>var2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch00_07_05&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t01_ch00_l05_t02&#10;</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var1&#10;var2(https://drive.google.com/open?id=1nfrUap5YJX6uChwEOKixKfAFgh9G9aLa)</td>
+                <td>var3</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t03</th>
+                <td>Samrat</td>
+                <td>var2,var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch00_l05_t04</th>
+                <td>Samrat</td>
+                <td>var1</td>
+                <td>var2,var1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_01_01</th>
+                <td>Debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_03_01_01_03_02</th>
+                <td>Debi</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_03_03</th>
+                <td>DEbi</td>
+                <td>var1</td>
+                <td>var3&#10;var9(https://drive.google.com/open?id=1kOJN7_rW1FVSpDwaxPtb57HKpXxYGikB)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_03_04</th>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var2&#10;var4(https://drive.google.com/open?id=11K6PV_LBIb2u2eWM9bOKmweY3caqhho0)&#10;var5(https://drive.google.com/open?id=1Y_Xv6T94olWAwB3N2iuIiycblSQMbTmE)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch01_03_05</th>
+                <td>debi</td>
+                <td>var1(https://drive.google.com/open?id=1QYtq8CDhYfD6zXT7RVT3Nf&ndash;IJK0paLQB)</td>
+                <td>var1</td>
+                <td>var6(https://drive.google.com/open?id=19Hda57WiXSOz5jpgFkgASo_yMVOFrQAF)</td>
+                <td>var5(https://drive.google.com/open?id=16g5ZzYH1J9m9Rjx2akHvqyEd0elQS37y)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>ch01_04_01</th>
+                <td>debi</td>
+                <td>var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_04_02&ndash;01_04_03</th>
+                <td>debi</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_05_01</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_05_02</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var7(https://drive.google.com/open?id=1HLq7ciTvmich381QeILlCYRKimhejGOb)&#10;var3</td>
+                <td>var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch01_06_01</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_06_02</th>
+                <td>28.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch01_07_01</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>var1(https://drive.google.com/open?id=1_yYJ6AIiUBxPZ0KjyPL&ndash;uQER0EflhyFZ)</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>ch01_07_02</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var3</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch01_l01_t02</th>
+                <td>29.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t01_ch01_l02_t03</th>
+                <td>30.11.2018</td>
+                <td>debi</td>
+                <td>var1</td>
+                <td>var1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch01_l02_t04_ch01_l02_t05</th>
+                <td>30.11.2018</td>
+                <td>debi</td>
+                <td>var2,var1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t01</th>
+                <td>samrat</td>
+                <td>var3(https://drive.google.com/open?id=1LlTni6x3LnOZqfs_wAYX9asrIOeCfroh)</td>
+                <td>var2</td>
+                <td>var8(https://drive.google.com/open?id=1MRjIujgrrJ&ndash;Y5Pin5wJPGqeI2PL-3OVs)</td>
+                <td>var2(https://drive.google.com/open?id=1McXO1AFBSxMGrToQwSl0VgW06COuu_Pc)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t02</th>
+                <td>samrat</td>
+                <td>var2</td>
+                <td>var7(https://drive.google.com/open?id=1bevD6gUrh&ndash;EuKYBc0-VaeAF-gVfth1fV)&#10;var8(https://drive.google.com/open?id=1r3uYzVTNPGkRuEwMmrGlOmbNXt_QBEDG)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l01_t03</th>
+                <td>samrat</td>
+                <td>var3(https://drive.google.com/open?id=1vgMYakbf7886vQXB_lfIZJNUmINH2wwW)&#10;var2</td>
+                <td>var4</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t01</th>
+                <td>43434</td>
+                <td>samrat</td>
+                <td>var9(https://drive.google.com/open?id=1RfmlEyQT2YHTS4QDXiEdBsR6GMVR6Sbz)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t02</th>
+                <td>43433</td>
+                <td>samrat</td>
+                <td>var2</td>
+                <td>var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t03</th>
+                <td>43434</td>
+                <td>samrat/arijit</td>
+                <td>var5(https://drive.google.com/open?id=1zbT45uFglCDFX9GexTnGBvXC5&ndash;ECrFAH)</td>
+                <td>var1&#10;var2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l02_t04</th>
+                <td>43434</td>
+                <td>samrat</td>
+                <td>var4(https://drive.google.com/open?id=1TSg5hYjSjeCLFUw2vj3LT7&ndash;tZVfDoO-T)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t01</th>
+                <td>43437</td>
+                <td>samrat</td>
+                <td>var1,var2</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t02</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>var2,var1</td>
+                <td>var1</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>ch02_l03_t03</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t01</th>
+                <td>samrat</td>
+                <td>3</td>
+                <td>1 (MCQ with drop&ndash;down)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>ch02_l04_t02</th>
+                <td>samrat</td>
+                <td>var1</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T01</th>
+                <td>var1</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T02</th>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T03</th>
+                <td>3</td>
+                <td>var6(https://drive.google.com/file/d/1wI0871_JrZRzbXZ8_G5BcS_9mGoTSGMS/view?usp=sharing)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Ch03_L01_T04</th>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T01</th>
+                <td>var1</td>
+                <td>1</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T02</th>
+                <td>var6</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T03</th>
+                <td>2, var1 (normal variation)</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L02_T04</th>
+                <td>var7</td>
+                <td>1 + 1 (Descriptive) (need to check the symbols)</td>
+                <td>var6</td>
+                <td>1(Horizontal&ndash;graphical MCQ with Single word MCQ)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T01</th>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T02</th>
+                <td>2(Descriptive MCQ with Single word MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L03_T03</th>
+                <td>2(Descriptive MCQ with Single word MCQ)</td>
+                <td>1(descriptive MCQ with True/false)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T01</th>
+                <td>var1</td>
+                <td>2 (Descriptive)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L04_T02</th>
+                <td>2</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T01</th>
+                <td>1(Descriptive)</td>
+                <td>1 (True false with MCQ)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T02</th>
+                <td>1(Descriptive) + 1 + 1(Descriptive) +</td>
+                <td>1 (True false with MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T03</th>
+                <td>1</td>
+                <td>var6 + var4</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>Ch03_L05_T04</th>
+                <td>2</td>
+                <td>1 (True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T01</th>
+                <td>var1</td>
+                <td>2</td>
+                <td>var6</td>
+                <td>1 (True false with MCQ)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T02</th>
+                <td>2&#10;1(Horizontal MCQ with vertical MCQ) (normal MCQ)</td>
+                <td>var3 + var6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>Ch03_L06_T03</th>
+                <td>var 8</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_01</th>
+                <td>var10 (https://drive.google.com/file/d/1pBxEmBhtRgojSqTayshI6jk4lywrL6kT/view?usp=sharing) + var2 +
+                    (normal variant, all 3 input boxes should be shown together) + Inputs in MCQ formats</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_02</th>
+                <td>1 (swap the position of image and dropdown)</td>
+                <td>1(Drop&ndash;down with MCQ)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_03</th>
+                <td>var1</td>
+                <td>1 (swap the position of image and dropdown)</td>
+                <td>var3</td>
+                <td>1(True false with MCQ)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_01_04</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_01</th>
+                <td>var1</td>
+                <td>2</td>
+                <td>var2 (input box in MCQ format, combine them in single thumbnail)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_02_02</th>
+                <td>var1</td>
+                <td>var2 (input box in MCQ format, combine them in single thumbnail)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>&#10;ch05_02_03</th>
+                <td>var1</td>
+                <td>var1, var2 (swap the image and activity position)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_01</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>var2 (show both the boxes together)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_03_02</th>
+                <td>1</td>
+                <td>var2 (input boxes in MCQ format)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_01</th>
+                <td>2</td>
+                <td>var3</td>
+                <td>1(Input&ndash;box with MCQ)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_02</th>
+                <td>var3 (dropdown in MCQ format)</td>
+                <td>1(MCQ with true/false)</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_04_03</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_01</th>
+                <td>1</td>
+                <td>var3 (dropdown in MCQ format)</td>
+                <td>var2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_02</th>
+                <td>1</td>
+                <td>var2 (input boxes in MCQ format)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_03</th>
+                <td>1</td>
+                <td>1(Drop&ndash;down with input-box)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_04</th>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>JWSY0_05_05_05</th>
+                <td>1</td>
+                <td>var3</td>
+                <td>3</td>
+                <td>391</td>
+                <td>97.75</td>
+                <td>2639.25</td>
+            </tr>
+        </table>
+    </div>
+    <h2> Sheet 6:Functional QA tracker</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <td>Var 1</td>
+                <td>Var 2</td>
+                <td>Var 3</td>
+                <td>Var 4</td>
+                <td>Var 5</td>
+                <td>Var 6</td>
+                <td>Var 7</td>
+                <td>Var 8</td>
+                <td>Var 9</td>
+                <td>Var 10</td>
+                <td>Var 11</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>Drag Drop(HTML)</th>
+                <td>ch00_01_01</td>
+                <td>ch00_03_01</td>
+                <td>ch02_l01_t01</td>
+                <td>ch02_l02_t04</td>
+                <td>ch02_l02_t03</td>
+                <td>Ch03_L02_T02</td>
+                <td>Ch03_L02_T04</td>
+                <td>Ch03_L06_T03</td>
+                <td>QA Complete</td>
+            </tr>
+            <tr>
+                <th>True and False(HTML)</th>
+                <td>ch00_01_01</td>
+                <td>First Round QA done</td>
+            </tr>
+            <tr>
+                <th>Click To Draw(HTML)</th>
+                <td>ch01_03_05</td>
+                <td>Not Applicable</td>
+            </tr>
+            <tr>
+                <th>MCQ(HTML)</th>
+                <td>ch00_01_04</td>
+                <td>ch00_l05_t01_ch00_l05_t02&#10;</td>
+                <td>ch02_l01_t03</td>
+            </tr>
+            <tr>
+                <th>Drop Down(HTML)</th>
+                <td>ch00_01_01</td>
+                <td>ch00_01_01</td>
+                <td>ch00_02_01</td>
+                <td>ch01_03_04</td>
+                <td>ch01_03_04</td>
+                <td>ch01_03_05</td>
+                <td>ch01_05_02</td>
+                <td>ch02_l01_t01</td>
+                <td>ch00_01_02</td>
+                <td>ch00_07_04</td>
+            </tr>
+            <tr>
+                <th>Click and Strike Through(HTML)</th>
+                <td>ch00_05_05</td>
+            </tr>
+            <tr>
+                <th>Click and Fill(HTML)</th>
+                <td>ch01_07_01</td>
+                <td>ch02_l01_t01</td>
+            </tr>
+            <tr>
+                <th>Input Box(HTML)</th>
+                <td>ch00_01_02</td>
+                <td>ch00_01_03</td>
+                <td>ch00_02_01</td>
+                <td>ch00_04_03</td>
+                <td>ch01_03_05</td>
+                <td>Ch03_L01_T03</td>
+                <td>ch02_l01_t02</td>
+                <td>ch02_l01_t02</td>
+                <td>ch02_l02_t01</td>
+                <td>JWSY0_05_01_01</td>
+                <td>ch00_07_03</td>
+            </tr>
+            <tr>
+                <th>Special(Combined variants)</th>
+            </tr>
+        </table>
+    </div>
+    <h2> Sheet 7:Variants</h2>
+    <div class="container-fluid table-view">
+        <table summary="" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Type</th>
+                    <td>Variant#</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>Click To Draw(HTML)</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>MCQ(HTML)</th>
+            </tr>
+            <tr>
+                <th>Drop Down(HTML)</th>
+            </tr>
+            <tr>
+                <th>Click and Strike Through(HTML)</th>
+            </tr>
+            <tr>
+                <th>Click and Fill(HTML)</th>
+            </tr>
+            <tr>
+                <th>Input Box(HTML)</th>
+            </tr>
+            <tr>
+                <th>Special(Combined variants)</th>
+            </tr>
+            <tr>
+                <th>Pending Activities:</th>
+            </tr>
+            <tr>
+                <th>Feedback text logic</th>
+                <td>Debi</td>
+                <td>11/22</td>
+            </tr>
+            <tr>
+                <th>Instruction text change logic</th>
+                <td>Debi, Arijit</td>
+                <td>11/23</td>
+            </tr>
+            <tr>
+                <th>Input Box variant</th>
+                <td>Arijit</td>
+                <td>11/23</td>
+            </tr>
+            <tr>
+                <th>Video Collapse expand</th>
+                <td>Kalpesh</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
